@@ -71,3 +71,12 @@ cardano-tracer/cardano-tracer-test
 
 # IntellIJ project folder
 .idea/
+
+# Prevent accidental web asset commits
+*.js.download
+*.html
+*.css
+# Allow necessary CSS/HTML for documentation
+!**/.github/**/*.html
+!**/docs/**/*.html
+!**/docs/**/*.css
